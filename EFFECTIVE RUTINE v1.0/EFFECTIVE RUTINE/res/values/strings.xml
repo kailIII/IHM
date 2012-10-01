@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">EFFECTIVE RUTINE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tComidas">"TextView \n"+"algo"</string>
+    <string name="tActividades">"TextView \n"+"algo"</string>
+    <string name="sComidas">Seleccion de comidas</string>
+    <string name="sActividades">Seleccion de actividaes</string>
+    <string name="sRutinas">Seleccion de rutinas</string>
+    <string name="hRevisar">Revisar historial</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="hSemanal">Historial Semanal</string>
+    <string name="hMensual">Historial Mensual</string>
+    <string name="hConsulta">Consulta de historial</string>
+    <string name="cDisponibles">Comidas disponibles</string>
+    <string name="catalogoComidas">Catalogo de alimentos</string>
+    <string name="comidasSeleccionadas">Comidas Seleccionadas</string>
+    <string name="catalogoActividades">Catalogo de actividades</string>
+    <string name="actividadesSeleccionadas">Actividades Seleccionadas</string>
+    <string name="vSemana">Ver Semana</string>
+    <string name="vMes">Ver Mes</string>
+    <string name="desayuno">Desayuno</string>
+    <string name="almuerzo">Almuerzo</string>
+    <string name="merienda">Merienda</string>
+    <string name="peso">Ingrese su peso (K)</string>
+    <string name="talla">Ingrese su talla (m.cm)</string>
+    <string name="sexo">Ingrese su sexo (M/F)</string>
+    <string name="edad">Ingrese su edad </string>
+    <string name="ePeso">Editar Peso y Talla</string>
+    <string name="lComidas">Comidas disponibles</string>
+    <string name="lActividades">Actividades disponibles</string>
+    <string name="calGanadas">Numero de \n calorias ganadas:</string>
+    <string name="calPerdidas">Numero de \n calorias quemadas</string>
+    <string name="aboutUs">Android Develpers 2012</string>
+    
+    
+    <string name="cambiarPeso">cambiarPeso</string>
+    <string name="verComidas">verComidas</string>
+    <string name="verHConsulta">verHConsulta</string>
+    <string name="verRutina">verRutina</string>
+    <string name="verHMensual">verHMensual</string>
+    <string name="verHSemanal">verHSemanal</string>
+    <string name="verLActividades">verLActividades</string>
+    <string name="verLComidas">verLComidas</string>
+    <string name="verHome">verHome</string>
+    
+    <string name="verLCSeleccionadas">verLCSeleccionadas</string>
+    <string name="sDesayuno">sDesayuno</string>
+    <string name="sAlmuerzo">sAlmuerzo</string>
+    <string name="sMerienda">sMerienda</string>
+    <string name="sCena">sCena</string>
+    <string name="sAperitivos">sAperitivos</string>
+    <string name="verLASeleccionadas">verLASeleccionadas</string>
+    <string name="verCAlimentos">verCAlimentos</string>
+    <string name="verCAactividades">verCActividades</string>
+    <string name="verAyuda">verAyuda</string>
+  
+    
+    
+    <string name="guardarOpciones">guardarOpciones</string>
+    
+   
+    <string name="verGrafico">verGrafico</string>
+    <string name="deleteSelected">deleteSelected</string>
+    <string name="guardarComidas">guardarComidas</string>
+    <string name="guardarActividades">guardarActividades</string>
+    
+    <string name="nporciones">Numero de porciones</string>
+     <string name="nminutos">Numero minutos \n realizando la actividad</string>
+    <string name="infon">Informacion nutricional por porcion</string>
+    <string name="infon2">Informacion</string>
+    <string name="caloriasinfo">Calorias</string>
+    <string name="grasasInfo">Grasas</string>
+    <string name="proteinasInfo">Proteinas</string>
+    <string name="carbohidratosInfo">Carbohidratos</string>
+    <string name="caloriasinfo2">Calorias quemadas por minuto</string>
+    
+    <string name="actualizarPorcion">actualizarPorcion</string>
+    <string name="actualizarMinutos">actualizarMinutos</string>
+    <string name="imc">Su IMC es:   </string>
+    <string name="clasificacion">Clasificacion:   </string>
+    <string name="tcaloriasg">Total de calorias ganadas:   </string>
+    <string name="tcaloriasp">Total de calorias quemadas:   </string>
+
+    <string name="acercaDe">EFFECTIVE RUTINE es una aplicación que nos permite configurar una serie de parámetros,\n  por ejemplo el peso actual, la talla actual, y nos indica nuestro indice de masa corporal 
+\n Además de todo esto ofrece una serie de soluciones para auto-gestionar nuestra dieta, como por ejemplo la seleccion de alimentos y seleccion de actividades físicas. \n La aplicación llevara un control semanal y mensual acerca de las calorias netas donde podrá \nverficar si el usuario
+lleva una rutina saludable.   </string>
+
+    <string name="nosotros">Desarrollado por:\n Alex Mite, \n Ricardo Campozano,\n Roberto Pico,\n Edward Holguín </string>
+</resources>

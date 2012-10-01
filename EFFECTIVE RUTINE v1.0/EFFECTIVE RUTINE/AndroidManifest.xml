@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ihm.effective.rutine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/logo150"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Rutina"></activity>
+        <activity android:name="CambiarPeso"></activity>
+        <activity android:name="ComidasDisponibles"></activity>
+        <activity android:name="HistorialConsulta"></activity>
+        <activity android:name="HistorialMensual"></activity>
+        <activity android:name="HistorialSemanal"></activity>
+        <activity android:name="ListaActividades"></activity>
+        <activity android:name="ListaComidas"></activity>
+        <activity android:name="graficos.GraficoE"></activity>
+        <activity android:name="er.main.ERmainActivity"></activity>
+        
+        <provider android:name="com.ihm.providers.ActividadProvider"
+            android:authorities="effectiveRutine.proveedor.Actividad" />
+        <provider android:name="com.ihm.providers.AlimentoProvider"
+            android:authorities="effectiveRutine.proveedor.Alimento" />
+        <provider android:name="com.ihm.providers.CatalogoActividadProvider"
+            android:authorities="effectiveRutine.proveedor.CatalogoActividad"></provider>
+        <provider android:name="com.ihm.providers.CatalogoAlimentoProvider"
+            android:authorities="effectiveRutine.proveedor.CatalogoAlimento"></provider>
+        <provider android:name="com.ihm.providers.DatosProvider"
+            android:authorities="effectiveRutine.proveedor.Datos"></provider>
+        <provider android:name="com.ihm.providers.DetalleRutinaActividadProvider"
+            android:authorities="effectiveRutine.proveedor.DetalleRutinaActividad"></provider>
+        <provider android:name="com.ihm.providers.DetalleRutinaAlimentoProvider"
+            android:authorities="effectiveRutine.proveedor.DetalleRutinaAlimento" ></provider>
+        <provider android:name="com.ihm.providers.RegimenComidaProvider"
+            android:authorities="effectiveRutine.proveedor.RegimenComida"></provider>
+        <provider android:name="com.ihm.providers.RutinaActividadProvider"
+            android:authorities="effectiveRutine.proveedor.RutinaActividad"></provider>
+        <provider android:name="com.ihm.providers.RutinaAlimentoProvider"
+            android:authorities="effectiveRutine.proveedor.RutinaAlimento" ></provider>
+        <activity android:name="ListaComidasSeleccionadas"></activity>
+        <activity android:name="CatalogoComidas"></activity>
+        <activity android:name="CatalogoActividades"></activity>
+        <activity android:name="ListaActividadesSeleccionadas"></activity>
+        <activity android:name="com.ihm.graphics.Hmensual"></activity>
+        <activity android:name="com.ihm.graphics.Hsemanal"></activity>
+        <activity android:name="Ayuda"></activity>
+        <activity android:name="MultiplicadorComidas"></activity>
+        <activity android:name="MultiplicadorActividades"></activity>
+    
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">25dp</dimen>
+    <dimen name="titulo">30dp</dimen>
+    <dimen name="paddin4dp">4dp</dimen>
+    <dimen name="size14dp">14dp</dimen>
+    <dimen name="size150dp">150dp</dimen>
+    <dimen name="none">0dp</dimen>
+
+</resources>
